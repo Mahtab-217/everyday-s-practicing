@@ -27,6 +27,7 @@ const sentence ="Hi there       Hope You are doing        well";
 console.log(sentence.replaceAll("       "," "));
 console.log(sentence.endsWith("best regards"));
 console.log(sentence.startsWith("Hi"));
+console.log(sentence.split())
 console.log(sentence.substring(0,1)+sentence.toUpperCase());
 const fun=" Ha Ha ";
 console.log(fun.repeat(4));
