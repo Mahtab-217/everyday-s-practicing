@@ -31,6 +31,12 @@
 // console.log(sentence.substring(0,1)+sentence.toUpperCase());
 // const fun=" Ha Ha ";
 // console.log(fun.repeat(4));
-const myChoise=prompt("Rock","Sciessors", "or Paper?");
+const myChoise=prompt("Choose rock paper or sceissors");
 let comChoice="";
-comChoice.Mathrandom()
+comChoice.Math.random();
+if((comChoice==="rock" && myChoise==="sceissors")||(comChoice==="paper" && myChoise==="rock")||(comChoice==="sceissors" && myChoise==="paper")){
+    allert("Computer won")
+}
+else{
+    allert("You win")
+}
