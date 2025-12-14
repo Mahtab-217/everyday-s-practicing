@@ -1,3 +1,8 @@
+
+
+
+
+
 // const number=[9,2,4,5,3,45,];
 // const natija=number.reduce((result, number)=>{
 //     return result*number;
@@ -44,8 +49,13 @@ else{
     console.log("sceissors")
 }
 if((comChoice==="rock" && myChoise==="sceissors")||(comChoice==="paper" && myChoise==="rock")||(comChoice==="sceissors" && myChoise==="paper")){
-    allert("Computer won")
+    allert("Computer won the contest")
 }
 else{
-    allert("You win")
+    allert("You won the contest")
 }
+const number=[23,53,23,13,432,];
+const num=number.toString();
+const mathing=Math.random();
+
+
