@@ -1,60 +1,21 @@
-
-const number=[9,2,4,5,3,45,];
-const natija=number.reduce((result, number)=>{
-    return result*number;
-});
-const students=["Ali","Hamid","Zahra", "Maryam","Ali","Zahra","joni","Ali"];
-const resulted=students.some((student)=>{
-    return student.includes("a");
-})
-const studentNum=students.reduce((acc,student)=>{
-    acc[student]=(acc[student] || 0)+1;
-return acc
-},{})
-const text=["Hi","there","Good","morning","!","Hope","You are","doing","great"];
-const sen=text.join(" ")
-const deleted=number.shift();
-number.unshift(444);
-const teachers=["Karim","Hassan","Juma","Mina"];
-const total=teachers.some((teacher)=>{
-    return teacher.includes("Juma");
-})
-const name="Ali Agha";
-const named=name.length;
-console.log(name.toUpperCase());
-const lastName="REZAEI";
-console.log(lastName.toLowerCase());
-const sentence ="Hi there       Hope You are doing        well";
-console.log(sentence.replaceAll("       "," "));
-console.log(sentence.endsWith("best regards"));
-console.log(sentence.startsWith("Hi"));
-console.log(sentence.split())
-console.log(sentence.substring(0,1)+sentence.toUpperCase());
-const fun=" Ha Ha ";
-console.log(fun.repeat(4));
-const myChoise=prompt("Choose rock paper or sceissors");
-let computer="";
-const comChoice=computer.Math.random()*100;
-if(comChoice>=66){
-    console.log(comChoice="paper");
-}
-else if(comChoice>=33){
-    console.log("rock")
+const number="";
+if(number){
+    console.log("added to codes");
 }
 else{
-    console.log("sceissors")
+    console.log("was not added to codes")
 }
-if((comChoice==="rock" && myChoise==="sceissors")||(comChoice==="paper" && myChoise==="rock")||(comChoice==="sceissors" && myChoise==="paper")){
-    allert("Computer won the contest")
+const name=prompt("Enter your name")
+const trimed =name.trim();
+if(trimed.length>2 && trimed.length<20){
+    console.log("Your entered a valid and good name")
 }
 else{
-    allert("You won the contest")
+    console.log("You entered an unvalid and a bad name")
 }
-const number2 = [23,53,23,13,432,];
-const num = number.toString();
-const mathing=Math.random();
-const name2 ="Jawid";
-
-
-
-
+function sayHello(...a){
+return a.reduce((total,num)=>{
+    return total+num;
+},0);
+}
+sayHello(2,4,3,4,5,6,6,7,12,23,54);
