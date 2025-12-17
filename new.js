@@ -19,3 +19,14 @@
 // },0);
 // }
 // sayHello(2,4,3,4,5,6,6,7,12,23,54);
+const body=document.body;
+const p=document.createElement("p");
+p.textContent="In the name of Allah";
+body.appendChild(p);
+const body1 =document.body;
+const div=document.createElement("div");
+body1.appendChild(div);
+const body2=document.body;
+const p2=document.createElement("p");
+p2.textContent="Hi there dear classmates";
+div.appendChild(p2);
