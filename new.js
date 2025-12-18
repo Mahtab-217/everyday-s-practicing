@@ -19,14 +19,17 @@
 // },0);
 // }
 // sayHello(2,4,3,4,5,6,6,7,12,23,54);
-const body=document.body;
-const p=document.createElement("p");
-p.textContent="In the name of Allah";
-body.appendChild(p);
-const body1 =document.body;
-const div=document.createElement("div");
-body1.appendChild(div);
-const body2=document.body;
-const p2=document.createElement("p");
-p2.textContent="Hi there dear classmates";
-div.appendChild(p2);
+const myDiv=document.getElementById("b");
+const second=document.querySelectorAll(".a");
+const classes=document.getElementsByClassName("a")
+second[0].setAttribute("class","c");
+for(let i=0;i<classes.length;i++){
+    classes [i].classList.add("c");
+}
+const myFirstP =document.querySelectorAll("p.l");
+const mySecondP=document.getElementById("b");
+const yourp=document.getElementsByClassName("a")
+myFirstP[2].setAttribute("class","o")
+for(let i=0;i<p.length;i++){
+    p [i].classList.add("o");
+}
