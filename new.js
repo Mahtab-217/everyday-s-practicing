@@ -19,17 +19,13 @@
 // },0);
 // }
 // sayHello(2,4,3,4,5,6,6,7,12,23,54);
-const myDiv=document.getElementById("b");
-const second=document.querySelectorAll(".a");
-const classes=document.getElementsByClassName("a")
-second[0].setAttribute("class","c");
-for(let i=0;i<classes.length;i++){
-    classes [i].classList.add("c");
+const name="Ali";
+if(name==="Ali"){
+    console.log(`Your name is Ali dear customer`)
 }
-const myFirstP =document.querySelectorAll("p.l");
-const mySecondP=document.getElementById("b");
-const yourp=document.getElementsByClassName("a")
-myFirstP[2].setAttribute("class","o")
-for(let i=0;i<p.length;i++){
-    p [i].classList.add("o");
+else if (name==="Ahmad") {
+    console.log(`Your name is Ahmad dear customer`)
+} else {
+    console.log(`We don't know you dear one`)
 }
+
