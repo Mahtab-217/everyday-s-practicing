@@ -37,7 +37,7 @@ image.classList.add("image");
 const h1=document.createElement("h1");
 const button=document.createElement("button");
 button.innerText="Hide";
-h1.textContent=("Christmas Time");
+h1.textContent=("About Christmas Time");
 
 const p =document.createElement("p");
 p.textContent=("Christmas is the celebration of Jesus Christ’s birth—the incarnation of God with us. Beyond gifts and traditions, its core meaning is worshiping the Savior who came to bring hope, peace, and salvation, remembered through Scripture, historic practices, and acts of love toward others.");
@@ -48,5 +48,5 @@ btn.style.display="none";
 })
 button.addEventListener("click",()=>{
     div.classList.remove("show");
-btn.style.display="block";
+btn.style.display="flex";
 })
