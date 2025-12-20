@@ -18,10 +18,38 @@ box-sizing: border-box;
   }
   body{
     height: 100vh;
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items:center ;
+  }
+  div{
+    width:80% ;
+    border: 1px solid black;
+    display: none;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+  }
+  div.show{
+    display: flex;
+  }
+  div img.image{
+
+height: 350px;
+width: 300px;
+  }
+  div h1{
+padding: 8px;
+background-color: rgb(3, 110, 74);
+color: white;
+font-size: larger;
+
+  }
+  button .btn{
+    background-color: rgb(3, 110, 74);
+    padding: 12px 20px;
+    color: white;
   }
 </style>
 </head>
@@ -36,6 +64,9 @@ box-sizing: border-box;
 <a href="#" class="py-1.5  px-4 ml-5 mt-5 hover:bg-blue-400 text-white transition-all duration-[700ms] hover:translate-y-2 hover:shadow-[2px_2px_30px] shadow-[2px_2px_10px] hover:shadow-white shadow-blue-400 rounded-md hover:text-black border border-blue-500 ">Save</a>
 </div> -->
 <div class="a" id="b"></div>
+<button class="btn">
+  Toggle 
+</button>
 </div>
 </body>
 </html>
