@@ -28,25 +28,26 @@ else if (name==="Ahmad") {
 } else {
     console.log(`We don't know you dear one`)
 }
-const div=document.querySelector("div.a");
-const btn=document.querySelector("button");
-const image=document.createElement("img");
-image.setAttribute("src","https://images.unsplash.com/photo-1607882602950-622c80fff04d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2hyaXN0bWFzJTIwdHJlZXxlbnwwfHwwfHx8MA%3D%3D");
-image.setAttribute("alt","something went wrong");
-image.classList.add("image");
-const h1=document.createElement("h1");
-const button=document.createElement("button");
-button.innerText="Hide";
-h1.textContent=("About Christmas Time");
+// const div=document.querySelector("div.a");
+// const btn=document.querySelector("button");
+// const image=document.createElement("img");
+// image.setAttribute("src","https://images.unsplash.com/photo-1607882602950-622c80fff04d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2hyaXN0bWFzJTIwdHJlZXxlbnwwfHwwfHx8MA%3D%3D");
+// image.setAttribute("alt","something went wrong");
+// image.classList.add("image");
+// const h1=document.createElement("h1");
+// const button=document.createElement("button");
+// button.innerText="Hide";
+// h1.textContent=("About Christmas Time");
 
-const p =document.createElement("p");
-p.textContent=("Christmas is the celebration of Jesus Christ’s birth—the incarnation of God with us. Beyond gifts and traditions, its core meaning is worshiping the Savior who came to bring hope, peace, and salvation, remembered through Scripture, historic practices, and acts of love toward others.");
-div.append(image,h1,p,button);
-btn.addEventListener("click",()=>{
-div.classList.add("show");
-btn.style.display="none";
-})
-button.addEventListener("click",()=>{
-    div.classList.remove("show");
-btn.style.display="flex";
-})
+// const p =document.createElement("p");
+// p.textContent=("Christmas is the celebration of Jesus Christ’s birth—the incarnation of God with us. Beyond gifts and traditions, its core meaning is worshiping the Savior who came to bring hope, peace, and salvation, remembered through Scripture, historic practices, and acts of love toward others.");
+// div.append(image,h1,p,button);
+// btn.addEventListener("click",()=>{
+// div.classList.add("show");
+// btn.style.display="none";
+// })
+// button.addEventListener("click",()=>{
+//     div.classList.remove("show");
+// btn.style.display="flex";
+// });
+
