@@ -18,7 +18,16 @@ section div.box{
     padding: 12px;
     border-top-left-radius: 12px;
     border-bottom-right-radius: 12px;
+    transition: 500ms linear;
 }
-section div.box p{
+section div.box p.p{
     color:crimson;
+    padding: 20px 0;
+}
+section div.box:hover{
+transform: translateY(12px);
+}
+section div.line{
+    outline: 2px solid red;
+    offset: 12px;
 }
