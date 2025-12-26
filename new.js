@@ -50,4 +50,5 @@ else if (name==="Ahmad") {
 //     div.classList.remove("show");
 // btn.style.display="flex";
 // });
-
+const div=document.querySelector(".box");
+div.classList.add("class",'line');
