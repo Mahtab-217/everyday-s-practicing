@@ -8,3 +8,5 @@ div.className=div.className+" line";
 // div.classList.add("line")
 p.setAttribute("class",'p');
 // div.classList.remove("line");
+p.setAttribute("class","d");
+div.style.backgroundColor="greenyellow";
